@@ -1,0 +1,11 @@
+{
+  "name": "@quansitech/qs-node-crypt",
+  "version": "v1.0.0",
+  "description": "encrypt library",
+  "main": "index.js",
+  "author": "tiderjian",
+  "license": "MIT",
+  "engines" : { 
+    "node" : ">=12.0.0" 
+  }
+}
