@@ -1,6 +1,7 @@
 {
-  "name": "@quansitech/qs-node-crypt",
+  "name": "@quansitech/qs-crypt",
   "version": "v1.0.0",
+  "homepage": "https://github.com/quansitech/qs-node-crypt",
   "description": "encrypt library",
   "main": "index.js",
   "author": "tiderjian",
