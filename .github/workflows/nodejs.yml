@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
-      - run: npm i
-      - run: npm run babel
-      - run: npm run babel-es
       - uses: JS-DevTools/npm-publish@v1
         with:
             token: ${{ secrets.NPM_AUTH_TOKEN }}
