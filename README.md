@@ -3,16 +3,19 @@ node加密
 
 ## 安装
 ```node
-
+npm i @quansitech/qs-crypt
 ```
 
 ## AES-256-CBC 
-```php
-$key="1234567";
+```node
+const crypt = require('@quansitech/qs-crypt');
+
+const key="1234567"
+const plainText="hello world"
+
 //加密
-$plainText = "hello world";
-$cipherText = AesCBC::encrypt($plainText, $key);
+const cipherText = crypt.AesCBC.encrypt(plainText, key);
 
 //解密
-$plainText = AesCBC::decrypt($cipherText, $key);
+crypt.AesCBC.decrypt(cipherText, key);
 ```
